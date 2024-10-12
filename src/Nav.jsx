@@ -5,7 +5,7 @@ function Nav() {
   let Links = [
     { name: "Inicio", href: "#" },
     { name: "Próximas Excursões", href: "#" },
-    { name: "Contato", href: "#" },
+    { name: "Contato", href: "https://api.whatsapp.com/message/7FZIY7DHMVNSA1?autoload=1&app_absent=0" },
   ]
 
   let [open, setOpen] = useState(false);
