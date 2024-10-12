@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="shadow-md w-full bottom-auto left-0 font-poppins">
+    <div className="shadow-xl w-full bottom-auto left-0 font-poppins">
       <div className="flex justify-around mt-10 py-5 bg-slate-100">
         <div>
           Cadastur 53.470.567/0001-98
