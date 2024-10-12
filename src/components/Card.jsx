@@ -3,7 +3,7 @@ import WhiteButton from "./WhiteButton";
 
 function Card(props) {
   return (
-    <div className="flex flex-col rounded-lg overflow-hidden shadow-xl bg-slate-100 mt-10">
+    <div className="flex flex-col rounded-lg overflow-hidden shadow-md hover:shadow-2xl duration-500 bg-slate-100 mt-10">
       <img src={props.img} alt={props.name} className="w-full h-auto" />
       <div className="flex-grow px-4 pt-4 pb-1">
         <div className="font-semibold text-xl">{props.name}</div>
