@@ -1,6 +1,19 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import cabofrio from './assets/cabofrio.jpg';
+
+import ilha1 from './assets/ilha1.jpg';
+import ilha2 from './assets/ilha2.jpg';
+import ilha3 from './assets/ilha3.webp';
+
+import aldeia1 from './assets/aldeia1.jpg';
+import aldeia2 from './assets/aldeia2.webp';
+import aldeia3 from './assets/aldeia3.webp';
+
+import betocarrero1 from './assets/betocarrero1.webp';
+import betocarrero2 from './assets/betocarrero2.webp';
+import betocarrero3 from './assets/betocarrero3.webp';
+
 import 'swiper/css';
 import 'swiper/css/pagination';
 import Card from './components/Card';
@@ -27,21 +40,30 @@ function Hero() {
           <Card
             name="Ilha Grande"
             date="15/12/24"
-            img={cabofrio}
+            img={ilha3}
+            firstImage={ilha1}
+            secondImage={ilha2}
+            thirdImage={ilha3}
           />
         </SwiperSlide>
         <SwiperSlide>
           <Card
             name="Aldeia Das Águas"
             date="18/01/25"
-            img={cabofrio}
+            img={aldeia1}
+            firstImage={aldeia1}
+            secondImage={aldeia2}
+            thirdImage={aldeia3}
           />
         </SwiperSlide>
         <SwiperSlide>
           <Card
             name="Beto Carrero"
             date="17/06/25"
-            img={cabofrio}
+            img={betocarrero1}
+            firstImage={betocarrero1}
+            secondImage={betocarrero2}
+            thirdImage={betocarrero3}
           />
         </SwiperSlide>
       </Swiper>
