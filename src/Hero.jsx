@@ -4,6 +4,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
+import './hero.css'
+
 import ilha3 from './assets/ilha3.webp';
 
 import aldeia1 from './assets/aldeia1.jpg';
@@ -11,7 +13,7 @@ import aldeia1 from './assets/aldeia1.jpg';
 import betocarrero1 from './assets/betocarrero1.webp';
 
 import Card from './components/Card';
-import { Navigation } from "swiper/modules";
+import { Pagination } from "swiper/modules";
 
 function Hero() {
   return (
@@ -21,8 +23,8 @@ function Hero() {
       <Swiper
         spaceBetween={20}
         slidesPerView={'auto'}
-        navigation={true}
-        modules={[Navigation]}
+        pagination={true}
+        modules={[Pagination]}
         className='mySwiper'
         breakpoints={
           {
