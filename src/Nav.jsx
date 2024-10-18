@@ -2,8 +2,9 @@ import { useState } from "react";
 import logo from './assets/logo.png';
 
 function Nav() {
+
   let Links = [
-    { name: "Inicio", href: "#" },
+    { name: "Inicio", href: "/" },
     { name: "Próximas Excursões", href: "#" },
     { name: "Contato", href: "https://api.whatsapp.com/message/7FZIY7DHMVNSA1?autoload=1&app_absent=0" },
   ]
