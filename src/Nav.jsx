@@ -13,7 +13,7 @@ function Nav() {
 
   return (
     <div className="shadow-md w-full fixed top-0 left-0 font-poppins z-[1000]">
-      <div className="md:flex items-center justify-between bg-slate-100 py-4 md:px-20 lg:px-40 px-7">
+      <div className="md:flex items-center justify-between bg-slate-100 py-4 md:px-14 lg:px-20 px-7">
         <a href="#">
           <div className="font-bold text-1xl flex items-center cursor-pointer text-gray-800">
             <img src={logo} className="w-6 rounded-full mr-2" alt="logo" />
