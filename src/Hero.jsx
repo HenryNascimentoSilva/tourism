@@ -55,7 +55,7 @@ function Hero() {
             date="18/01/25"
             img={aldeia1}
             buy={links.aldeia}
-            parcelas={"Em até 4x de 50 ou até 10x no cartão"}
+            parcelas={"Em até 4x ou 10x"}
           />
         </SwiperSlide>
         <SwiperSlide>
