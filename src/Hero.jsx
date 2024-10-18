@@ -55,6 +55,7 @@ function Hero() {
             date="18/01/25"
             img={aldeia1}
             buy={links.aldeia}
+            parcelas={"Em até 40x de 50 no pix ou até 10x no cartão"}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -63,6 +64,7 @@ function Hero() {
             date="17/06/25"
             img={betocarrero1}
             buy={links.beto}
+            parcelas={"A consultar"}
           />
         </SwiperSlide>
       </Swiper>
