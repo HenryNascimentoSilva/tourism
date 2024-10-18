@@ -6,18 +6,26 @@ import Nav from "./Nav";
 import Footer from "./Footer";
 
 function DetailsPage() {
-  // o nome que vai ser usado para roteamento
   const { name } = useParams();
-  // navegacao para a janela principal
   const navigate = useNavigate();
+  
+  // Conteúdo individual de cada card
+  const excursionData = imageData[name] || {};
+  const { img1, img2, img3, text, link } = excursionData;
+
+  // Navegação para a janela principal
   const goToHome = () => {
     navigate('/');
   }
 
-  const goBuy = () => window.location.href = link;
-
-  // conteudo individual de cada card
-  const { img1, img2, img3, text, link } = imageData[name] || {};
+  // Função para redirecionar para a página de compra
+  const goBuy = () => {
+    if (link) {
+      window.location.href = link;  // Navega para o link de compra
+    } else {
+      console.error('Link não definido para esta excursão.');
+    }
+  }
 
   return (
     <>
