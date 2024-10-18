@@ -1,7 +1,8 @@
 import { useNavigate } from "react-router-dom";
 
+// Props passada na aba Hero
 function Card({ img, name, date}) {
-
+  // código que ira navegar o usuário para a página do nome do card em que foi clicado
   const navigate = useNavigate();
   const goToExcursion = () => {
     navigate(`/excursion/${name}`);

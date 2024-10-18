@@ -7,6 +7,7 @@ function Footer() {
         </div>
         <div>
           <ul className="flex">
+            {/* Icones para contato */}
             <li><a href="https://www.facebook.com/people/Rota-%C3%9Anica-Viagens/61558780656444/?mibextid=ZbWKwL"><ion-icon name="logo-facebook" id="icon"></ion-icon></a></li>
             <li className="mx-4"><a href="https://www.instagram.com/rotaunicaviagens"><ion-icon name="logo-instagram" id="icon"></ion-icon></a></li>
             <li><a href="https://api.whatsapp.com/message/7FZIY7DHMVNSA1?autoload=1&app_absent=0"><ion-icon name="logo-whatsapp" id="icon"></ion-icon></a></li>

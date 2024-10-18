@@ -5,13 +5,16 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Nav from "./Nav";
 import Footer from "./Footer";
 
-function DetailsPage(a) {
+function DetailsPage() {
+  // o nome que vai ser usado para roteamento
   const { name } = useParams();
+  // navegacao para a janela principal
   const navigate = useNavigate();
   const goToHome = () => {
     navigate('/');
   }
 
+  // conteudo individual de cada card
   const { img1, img2, img3, text } = imageData[name] || {};
 
   return (

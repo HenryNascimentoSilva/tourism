@@ -10,6 +10,8 @@ import beto1 from '../assets/betocarrero1.webp';
 import beto2 from '../assets/betocarrero2.webp';
 import beto3 from '../assets/betocarrero3.webp';
 
+// Todos os props da pagina de detalhes
+// toda vez que alterar um detalhe na pagina de detalhes alterar por aqui:
 const imageData = {
   "Ilha Grande": {
     img1: ilha1,
