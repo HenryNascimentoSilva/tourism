@@ -19,7 +19,7 @@ function Hero() {
   }
 
   return (
-    <div className="md:px-20 px-7 font-poppins lg:px-40 py-10 bg-gradient-to-br from-green-50 to-blue-50" id="hero">
+    <div className="md:px-20 px-7 font-poppins lg:px-40 py-10 bg-gradient-to-br from-green-50 to-blue-50">
       <div className="font-bold text-2xl md:text-left text-center pb-2 sm:pb-0">Seu próximo destino está aqui!</div>
       <div className="md:text-left text-center text-2xl">Somos a Rota Única Viagens, uma agência especializada ​em proporcionar experiências inesquecíveis para quem ​ama viajar! Oferecemos pacotes de viagens ​personalizados e excursões saindo do Rio de Janeiro para ​destinos incríveis em todo o Brasil.</div>
       <Swiper
@@ -28,6 +28,7 @@ function Hero() {
         pagination={true}
         modules={[Pagination]}
         className='py-10'
+        id="hero"
         breakpoints={
           {
             320: { slidesPerView: 1 },
