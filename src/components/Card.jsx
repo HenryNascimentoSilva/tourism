@@ -13,7 +13,7 @@ function Card({ img, name, date, buy, parcelas}) {
 
   return (
     <>
-      <div className="flex flex-col rounded-lg overflow-hidden shadow-md hover:shadow-2xl duration-500 bg-slate-100 mt-10 font-poppins">
+      <div className="flex flex-col rounded-lg overflow-hidden shadow-md hover:shadow-lg duration-500 bg-slate-100 mt-10 font-poppins">
         <img src={img} alt={name} className="w-full lg:h-56 h-32 md:h-40 bg-cover" />
         <div className="flex-grow px-4 pt-4 pb-1">
           <div className="font-semibold text-xl">{name}</div>

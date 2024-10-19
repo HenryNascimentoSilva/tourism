@@ -31,7 +31,7 @@ function Hero() {
         slidesPerView={'auto'}
         pagination={true}
         modules={[Pagination]}
-        className='mySwiper'
+        className='py-10'
         breakpoints={
           {
             320: { slidesPerView: 1 },
